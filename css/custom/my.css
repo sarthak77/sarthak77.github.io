@@ -36,6 +36,15 @@
 	border:2px solid white;
 }
 
+@media only screen and (max-width: 650px)
+{
+	.nav-box
+	{
+		margin-left: -50vw;
+		margin-top: 30vh;
+	}
+}
+
 #skill-list{
 	text-align: center;
 	width:75%;
@@ -147,6 +156,7 @@
 	/* For text on image use top margin -10em */
 	margin-top: -5em;
 	margin-left: 3em;
+	/* width:40vw; */
 	width:100%;
   }
   
@@ -155,6 +165,8 @@
 	display: inline-block;
 	padding:.5em;
 	overflow: hidden;
+	/* line-height: 3%; */
+	/* line-height: 3vw; */
 	line-height: 1em;
 	background-color: white;
 	border-radius: .5em;
@@ -168,7 +180,42 @@
 	display: inline-block;
 	line-height: 1em;
 	opacity: 0.2;
+	/* font-size: 2vw; */
 	font-size: 55%;
 	/* text-shadow: 2px 2px 5px black; */
 	color: black;
   }
+
+  @media only screen and (max-width: 900px)
+  {
+	.ml6 .text-wrapper
+	{
+		margin-top: 10vw;
+		/* margin-left: -40vw; */
+		padding:0.3em;
+		width: 50vw;
+		line-height: .1em;		
+	}
+	.ml6 .letter0, .letter1, .letter2, .letter3, .letter4, .letter5, .letter6, .letter7, .letter8, .letter9
+	{
+		font-size: 35%;
+	}
+  }
+
+  @media only screen and (max-width: 500px)
+  {
+	.ml6 .text-wrapper
+	{
+		margin-top: 20vw;
+		margin-left: -40vw;
+		padding:0.3em;
+		/* background-color: red; */
+		width: 40vw;
+		line-height: .1em;		
+	}
+	.ml6 .letter0, .letter1, .letter2, .letter3, .letter4, .letter5, .letter6, .letter7, .letter8, .letter9
+	{
+		font-size: 25%;
+	}
+  }
+

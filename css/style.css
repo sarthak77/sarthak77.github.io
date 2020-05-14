@@ -8489,6 +8489,12 @@ textarea.form-control {
   box-shadow: none !important;
   font-size: 15px; }
 
+.block-3{
+  width: 100%;
+  /* border: 2px solid red; */
+  /* min-height: 25em; */
+}
+
 .block-3 .image {
   width: 100%;
   padding: 10% 7%; }
