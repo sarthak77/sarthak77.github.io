@@ -77,6 +77,13 @@
 	opacity: 1;
 }
 
+@media only screen and (max-width: 500px)
+{
+	#skill-list li{
+		font-size: 3vw;
+	}
+}
+
 .exp-wrap li{
 	border-radius: 5%;
 	background-color: #8c8c8c;
@@ -90,6 +97,15 @@
 .exp-wrap li:hover{
 	opacity: 1;
 
+}
+
+@media only screen and (max-width: 800px)
+{
+	.exp-wrap div li{
+		font-size: 3vw;
+		padding: 0;
+		margin-top: 0;
+	}
 }
 
 .res-css{
@@ -144,6 +160,23 @@
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+@media only screen and (max-width: 900px)
+{
+	.parallax-img
+	{
+		height: 60vw;
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width: 500px)
+{
+	.parallax-img
+	{
+		margin-left: 20vw;
+	}
+}
+
 .parallax-div h2{
 	padding: 0%;
 	margin-bottom: -47px;
@@ -190,15 +223,15 @@
   {
 	.ml6 .text-wrapper
 	{
-		margin-top: 10vw;
-		/* margin-left: -40vw; */
+		margin-top: 5vw;
+		margin-left: -20vw;
 		padding:0.3em;
 		width: 50vw;
-		line-height: .1em;		
+		line-height: .5em;		
 	}
 	.ml6 .letter0, .letter1, .letter2, .letter3, .letter4, .letter5, .letter6, .letter7, .letter8, .letter9
 	{
-		font-size: 35%;
+		font-size: 45%;
 	}
   }
 
@@ -212,6 +245,7 @@
 		/* background-color: red; */
 		width: 40vw;
 		line-height: .1em;		
+		/* word-spacing: 2px; */
 	}
 	.ml6 .letter0, .letter1, .letter2, .letter3, .letter4, .letter5, .letter6, .letter7, .letter8, .letter9
 	{
