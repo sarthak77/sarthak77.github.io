@@ -25,7 +25,7 @@ var observer = new IntersectionObserver(function(entries)
 		console.log(entries[0].intersectionRatio)
 		if(entries[0]['isIntersecting'] === true)
 		{
-			anime.timeline({loop: true})
+			anime.timeline({loop: false})
 				.add({
 					targets: tg,
 					// targets: '.ml6 .letter',
