@@ -141,6 +141,7 @@
 }
 
 .ml6 {
+	/* border:2px solid red; */
 	/* background-color: #8c8c8c; */
 	/* opacity: 0.5; */
 	/* For text on image use top margin -10em */
@@ -163,10 +164,10 @@
 	opacity: 1;
 }
   
-  .ml6 .letter {
+  .ml6 .letter0, .letter1, .letter2, .letter3, .letter4, .letter5, .letter6, .letter7, .letter8, .letter9{
 	display: inline-block;
 	line-height: 1em;
-	opacity: 1;
+	opacity: 0.2;
 	font-size: 55%;
 	/* text-shadow: 2px 2px 5px black; */
 	color: black;
