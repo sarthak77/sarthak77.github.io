@@ -89,7 +89,7 @@
 	background-color: #8c8c8c;
 	display: inline-block;
 	padding:1%;
-	margin-top:1%;
+	margin-top:5px;
 	color: white;
 	opacity: 0.9;
 }
@@ -104,7 +104,7 @@
 	.exp-wrap div li{
 		font-size: 3vw;
 		padding: 0;
-		margin-top: 0;
+		/* margin-top: 0; */
 	}
 }
 
